@@ -1,16 +1,23 @@
 # pathhack대회, 일시 2022.4.29
 
-# 개발 구상도
+## 개발 구상도
 
-![IMG_3945DD6F2F23-1](https://user-images.githubusercontent.com/62462552/165891108-3c3b0ace-a987-4edb-bfb3-67fe0d06bb55.jpeg)
+![KakaoTalk_20220430_052922317_01](https://user-images.githubusercontent.com/61003779/166065566-ad4dc464-713b-4595-a516-ef6865d4d86d.jpg)
 
-# 오리 얼굴 디자인
+## 개발중
 
-## 1![face_1](https://user-images.githubusercontent.com/61003779/165980128-e89115ac-08c4-417f-b638-754672860281.jpg)
-## 2![face_2](https://user-images.githubusercontent.com/61003779/165980173-91bbc011-e68d-48e2-b206-23784a512977.jpg)
-## 3![face_3](https://user-images.githubusercontent.com/61003779/165980286-a554e777-38c6-4269-ab1f-9f2ff6392ff6.jpg)
-## 4![face_4](https://user-images.githubusercontent.com/61003779/165980331-97428f6a-4ab6-4d4d-acb0-4565ad747301.jpg)
-## 5![face_5](https://user-images.githubusercontent.com/61003779/165980352-d73b69db-f361-4032-8a19-1a870c3b9cc1.jpg)
+![KakaoTalk_20220430_054505059](https://user-images.githubusercontent.com/61003779/166066975-662545f8-996f-4319-8960-a2238d074ad9.jpg)
 
-# 오리 얼굴 완성
-![KakaoTalk_20220430_004109109](https://user-images.githubusercontent.com/61003779/165980556-c34fdc62-4a31-432e-b270-8b04139c8ffd.jpg)
+## 구현 실패
+
+https://user-images.githubusercontent.com/61003779/166065626-3627b564-7ff6-4da1-867d-d5091503a28d.mp4
+
+서보모터가 하나밖에 없어 스프레이를 누를 힘이 부족해 구현에 실패했습니다. <br> 그래서 계획을 수정해 다음과 같이 개발 구상도를 다시 작성했습니다.
+
+## 개발 구상도 v2
+
+![KakaoTalk_20220430_052922317](https://user-images.githubusercontent.com/61003779/166066207-4244bb69-ed35-4349-a4e4-a78285d24fb0.jpg)
+
+## 개발중
+
+![KakaoTalk_20220430_054707490](https://user-images.githubusercontent.com/61003779/166067122-aa511b1c-3481-4fab-845e-56c4dafd9b0a.jpg)
