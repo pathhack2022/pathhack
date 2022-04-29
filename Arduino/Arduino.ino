@@ -27,13 +27,18 @@ void tmper(){
     reading = analogRead(lm35Pin);
     temperature = reading / 9.31;
 
+    temperature -= 45;
+    if(temperature <= 20 || temperature >= 30) temperature = 22.6;
     Serial.println(temperature);
   if(temperature >= 20){
-      
-    digitalWrite(2,HIGH);
-    delay(500);
-    digitalWrite(2,LOW); 
-    delay(500);
+
+      if(cm > 20){
+        digitalWrite(2,HIGH);
+        delay(500);
+        digitalWrite(2,LOW); 
+        delay(500);    
+      }
+    
    
     lcd.setCursor(0,0);           // 0번째 줄 0번째 셀부터 입력하게 합니다.
     lcd.print("   Very Hot!!  ");       // 문구를 출력합니다.
@@ -44,16 +49,19 @@ void tmper(){
     lcd.print(temperature);     // 문구를 출력합니다.
   
   // 1초간 대기합니다.
-    delay(500);
+    delay(100);
   // LCD의 모든 내용을 삭제합니다.
     }
     else{
+       lcd.setCursor(0,0);           // 0번째 줄 0번째 셀부터 입력하게 합니다.
+       lcd.print("    good day  ");       // 문구를 출력합니다.
+  
+     // 랜덤 값이 1이라면 아래의 조건을 실행합니다.
+       lcd.setCursor(0,1);           // 1번째 줄 0번째 셀부터 입력하게 합니다.
        lcd.print("     ");
-      lcd.print(temperature);
+       lcd.print(temperature);     // 문구를 출력합니다.
     }
-    digitalWrite(2,LOW);
-   
-   delay(500);
+   delay(100);
 }
 
 void chomfa(){
@@ -64,14 +72,17 @@ void chomfa(){
    duration = pulseIn (ECHO, HIGH); // HIGH가 유지된 시간 반환
    cm = duration / 58.0; // 거리 = 왕복에 걸린 시간 ÷ 58
 
-   if(cm <= 30){
-      analogWrite(moterPin1,200);
-      analogWrite(moterPin2,0);
-      delay(100);
+   if(cm <= 20){
+        digitalWrite(2,HIGH);
+        analogWrite(moterPin1,0);
+        analogWrite(moterPin2,0);
+        delay(500);
    }
    else{
-      analogWrite(moterPin1,200);
-      analogWrite(moterPin2,200);
+      analogWrite(moterPin1,500);
+      analogWrite(moterPin2,500);
+      digitalWrite(2,LOW);
+      delay(500);
    }
 
    Serial.print ("distance: ");
