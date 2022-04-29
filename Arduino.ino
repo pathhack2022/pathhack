@@ -15,10 +15,10 @@ void setup() {
   servo.attach(2);
 }
 
-void dcmoter(){
+void dcmoter(){ //dc모터 제어
   analogWrite(moterPin,500);
 }
-void tmper(){
+void tmper(){   //온도센서 제어
     reading = analogRead(lm35Pin);
     temperature = reading / 9.31;
     
@@ -26,7 +26,7 @@ void tmper(){
     delay(1000);
 }
 
-void sv(){
+void sv(){    //서버모터 제어
     for(int i=0;i<180;i+=45){
       value = i;
       servo.write(value), delay(500);
