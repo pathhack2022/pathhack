@@ -21,3 +21,12 @@ https://user-images.githubusercontent.com/61003779/166065626-3627b564-7ff6-4da1-
 ## 개발중
 
 ![KakaoTalk_20220430_054707490](https://user-images.githubusercontent.com/61003779/166067122-aa511b1c-3481-4fab-845e-56c4dafd9b0a.jpg)
+
+## 귀여운 오리 완성
+
+![KakaoTalk_20220430_071959860](https://user-images.githubusercontent.com/61003779/166076090-44c33556-5a16-40fd-8bdb-3456d0cc1632.jpg)
+
+## 시연 영상
+
+https://user-images.githubusercontent.com/61003779/166077615-d23cbe92-e228-4c34-913a-68ecbca1d8b6.mp4
+
