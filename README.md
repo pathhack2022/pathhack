@@ -2,5 +2,4 @@
 
 # 개발 구상도
 
-
-![IMG_9C322AA8DB42-1](https://user-images.githubusercontent.com/62462552/165889135-29b03388-5f43-4504-ab08-198ff1d2a016.jpeg)
+![IMG_3945DD6F2F23-1](https://user-images.githubusercontent.com/62462552/165891108-3c3b0ace-a987-4edb-bfb3-67fe0d06bb55.jpeg)
